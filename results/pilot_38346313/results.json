@@ -1,0 +1,76 @@
+{
+  "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+  "diagnostics": {
+    "gini_mean": 0.6332889387239441,
+    "gini_min": 0.5324986573480495,
+    "gini_max": 0.9044598945168021,
+    "committee": {
+      "0.5": {
+        "mean": 18.520833333333332,
+        "min": 1,
+        "max": 24
+      },
+      "0.8": {
+        "mean": 40.416666666666664,
+        "min": 4,
+        "max": 52
+      },
+      "0.95": {
+        "mean": 65.02083333333333,
+        "min": 41,
+        "max": 82
+      }
+    },
+    "protected_per_layer": 6.5
+  },
+  "points": [
+    {
+      "label": "baseline",
+      "ratio": 0.0,
+      "kept_per_layer": 128,
+      "humaneval_pass1": 0.9146341463414634,
+      "gsm8k_em": 0.9933333333333333,
+      "minutes": 25.185180338223777
+    },
+    {
+      "label": "pruned_25%",
+      "ratio": 0.25,
+      "kept_per_layer": 96,
+      "humaneval_pass1": 0.9146341463414634,
+      "gsm8k_em": 0.9733333333333334,
+      "minutes": 24.37195659081141
+    },
+    {
+      "label": "pruned_50%",
+      "ratio": 0.5,
+      "kept_per_layer": 64,
+      "humaneval_pass1": 0.8902439024390244,
+      "gsm8k_em": 0.94,
+      "minutes": 26.442849441369376
+    },
+    {
+      "label": "pruned_65%",
+      "ratio": 0.65,
+      "kept_per_layer": 45,
+      "humaneval_pass1": 0.823170731707317,
+      "gsm8k_em": 0.3333333333333333,
+      "minutes": 30.69370320638021
+    },
+    {
+      "label": "pruned_80%",
+      "ratio": 0.8,
+      "kept_per_layer": 26,
+      "humaneval_pass1": 0.45121951219512196,
+      "gsm8k_em": 0.0,
+      "minutes": 30.114640899499257
+    },
+    {
+      "label": "pruned_88%",
+      "ratio": 0.875,
+      "kept_per_layer": 16,
+      "humaneval_pass1": 0.0,
+      "gsm8k_em": 0.0,
+      "minutes": 24.039309147993723
+    }
+  ]
+}

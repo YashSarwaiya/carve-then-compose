@@ -1,0 +1,42 @@
+{
+  "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+  "ratio": 0.65,
+  "points": [
+    {
+      "label": "baseline",
+      "kept_per_layer": 128,
+      "mmlu_hum_em": 0.8466666666666667,
+      "minutes": 0.7606594483057658
+    },
+    {
+      "label": "union_code_math",
+      "kept_per_layer": 67.41666666666667,
+      "mmlu_hum_em": 0.5033333333333333,
+      "minutes": 0.37971381743748983
+    },
+    {
+      "label": "random_size_matched",
+      "kept_per_layer": 67.41666666666667,
+      "humaneval_pass1": 0.5853658536585366,
+      "gsm8k_em": 0.37333333333333335,
+      "mmlu_hum_em": 0.6233333333333333,
+      "minutes": 39.44652586380641
+    },
+    {
+      "label": "hum_pruned",
+      "kept_per_layer": 45.0,
+      "humaneval_pass1": 0.0,
+      "gsm8k_em": 0.006666666666666667,
+      "mmlu_hum_em": 0.2866666666666667,
+      "minutes": 41.246028411388394
+    },
+    {
+      "label": "union_code_hum",
+      "kept_per_layer": 71.35416666666667,
+      "humaneval_pass1": 0.8414634146341463,
+      "gsm8k_em": 0.32666666666666666,
+      "mmlu_hum_em": 0.7433333333333333,
+      "minutes": 31.82221828699112
+    }
+  ]
+}
