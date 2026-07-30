@@ -1,7 +1,7 @@
 # Carve, Then Compose: Training-Free Domain Pruning and Recombination of Experts in Mixture-of-Experts LLMs
 
 **Yash Sarwaiya**
-Independent Researcher
+University of Florida
 
 *Working draft. Submission version: `paper/main.tex`. Code and results: https://github.com/YashSarwaiya/carve-then-compose*
 

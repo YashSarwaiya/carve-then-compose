@@ -17,6 +17,8 @@ Carve, Then Compose: Training-Free Domain Pruning and Recombination of Experts i
 Yash Sarwaiya
 ```
 
+Affiliation field: `University of Florida`
+
 ## Abstract (plain text — paste as-is)
 
 ```
